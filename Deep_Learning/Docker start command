@@ -1,0 +1,6 @@
+docker run --rm --runtime=nvidia -v $PWD:/Docker -it -p 8888:8888 tensorflow/tensorflow:latest-gpu-py3
+
+
+
+docker start condescending_cocks && docker attach condescending_cocks
+cd /Docker/Desktop/Deep_Learning/
